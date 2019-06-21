@@ -9,8 +9,8 @@ Developed an android application for faster and easier circulation of notices in
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## How to Use
-* place the placement folder in xampp/htdocs/ and start the server.
-* import the database(db_spsu.sql) into xampp server
+* place the Notice_spsu folder in xampp/htdocs/ and start the server.
+* import the database(spsu_app.sql) into xampp server
 
 ## Technology Used
 ![Tech: Java](https://img.shields.io/badge/1-Java-green.svg)
