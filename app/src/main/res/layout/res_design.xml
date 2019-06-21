@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="@drawable/list_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="6dp">
+        <TextView
+            android:id="@+id/item_1"
+            android:layout_gravity="left|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CS-369"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:ems="4"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/item_2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monu Lakshkar is going to have a baby"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:ems="12"/>
+        <TextView
+            android:id="@+id/item_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:ems="3"
+            android:text="A+"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center|right"/>
+    </FrameLayout>
+
+</LinearLayout>
